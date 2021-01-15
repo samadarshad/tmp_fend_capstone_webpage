@@ -125,6 +125,19 @@ body {
     font-size: 1.2rem
 }
 
+.album .card-text {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.album .card-votes {
+    padding-top: 0;
+    padding-left: 0;
+    line-height: 1em;
+    align-content: center;
+    justify-content: center;
+}
+
 
 /* .carousel-inner {
     height: 100%;
