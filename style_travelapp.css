@@ -52,6 +52,10 @@ body {
     font-size: 1.1em !important;
 }
 
+.entry p {
+    background-color: rgba(255, 255, 255, 0.205)
+}
+
 #carouselExampleIndicators {
     padding: 0%;
     background-color: #000;
@@ -319,6 +323,10 @@ hr.light-100 {
     }
     .display-4 {
         font-size: 160%;
+    }
+    .entry .form-label {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
     }
 }
 
