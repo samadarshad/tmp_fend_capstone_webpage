@@ -7,9 +7,10 @@ body {
     background-color: #D690A0;
 }
 
-* {
+
+/* * {
     border: 1px dotted black;
-}
+} */
 
 .entry-img img {
     width: 100%;
@@ -120,6 +121,11 @@ body {
     padding-top: 2rem;
 }
 
+.container hr {
+    border-top: 1px solid #381035;
+    width: 95%;
+}
+
 .welcome hr {
     border-top: 2px solid #b4b4b4;
     width: 95%;
@@ -155,8 +161,9 @@ body {
     max-width: 100%;
 }
 
-body>main>div.main-card.py-4.container {
-    background-color: #000;
+main,
+.album {
+    background-color: #D690A0;
 }
 
 .main-card .card,
