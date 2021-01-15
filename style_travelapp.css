@@ -60,6 +60,11 @@ body {
     margin: auto;
 }
 
+#carouselExampleIndicators img {
+    max-height: 25vh;
+    object-fit: cover;
+}
+
 .entry-caption {
     color: #fff;
     /* position: relative; */
