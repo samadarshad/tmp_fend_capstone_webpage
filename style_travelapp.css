@@ -39,11 +39,23 @@ body {
     font-size: 1.1em !important;
 }
 
+#carouselExampleIndicators {
+    padding: 0%;
+    background-color: #000;
+    justify-content: center;
+}
+
 .entry-caption {
     color: #fff;
     /* position: relative; */
     /* top: 50%; */
     /* transform: translateY(-100%) */
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .entry-caption h1 {
