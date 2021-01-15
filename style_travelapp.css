@@ -4,13 +4,14 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: #D690A0;
 }
 
 * {
     border: 1px dotted black;
 }
 
-.entry img {
+.entry-img img {
     width: 100%;
     height: 100%;
 }
@@ -18,6 +19,17 @@ body {
 .entry {
     background: url('img/background.png');
     background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D690A0;
+}
+
+.entry-caption {
+    /* position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(5%, -75%); */
+    /* margin-bottom: 0; */
 }
 
 .entry .form-label {
@@ -143,9 +155,13 @@ body {
     max-width: 100%;
 }
 
+body>main>div.main-card.py-4.container {
+    background-color: #000;
+}
+
 .main-card .card,
 .saved-trips .card {
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 
 .social a {
