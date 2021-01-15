@@ -42,7 +42,9 @@ body {
 #carouselExampleIndicators {
     padding: 0%;
     background-color: #000;
-    justify-content: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: auto;
 }
 
 .entry-caption {
@@ -52,10 +54,20 @@ body {
     /* transform: translateY(-100%) */
 }
 
-.carousel-item {
+
+/* .carousel-inner {
     height: 100%;
-    width: 100%;
     object-fit: cover;
+    margin: auto;
+} */
+
+.carousel-item img {
+    /* margin: auto; */
+    /* padding-top: 50%; */
+    /* height: 100%; */
+    /* height: auto; */
+    /* width: 100%; */
+    /* object-fit: cover; */
 }
 
 .entry-caption h1 {
