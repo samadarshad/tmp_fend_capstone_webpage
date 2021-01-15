@@ -219,6 +219,10 @@ main,
     background-color: #ffffff;
 }
 
+.social {
+    transform: translateY(-25%);
+}
+
 .social a {
     font-size: 2em;
     padding: 1rem;
