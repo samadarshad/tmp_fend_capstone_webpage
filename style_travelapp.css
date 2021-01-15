@@ -72,6 +72,49 @@ body {
     /* transform: translateY(-100%) */
 }
 
+.weather-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem
+}
+
+.weather-card .weather-card-body {
+    padding: 1.88rem 1.81rem
+}
+
+.weather-card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: #ffffff
+}
+
+.weather-card .weakly-weather {
+    background: #ffffff;
+    overflow-x: auto
+}
+
+.weather-card .weakly-weather .weakly-weather-item {
+    flex: 0 0 14.28%;
+    border-right: 1px solid #f2f2f2;
+    padding: 1rem;
+    text-align: center
+}
+
+.mb-0,
+.my-0 {
+    margin-bottom: 0 !important
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+    font-size: 1.2rem
+}
+
 
 /* .carousel-inner {
     height: 100%;
